@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kertas">
+
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Creat Muhammad Iqbal Gozali NPM 57414347"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#ff00"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/ib_close"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2" />
+</RelativeLayout>

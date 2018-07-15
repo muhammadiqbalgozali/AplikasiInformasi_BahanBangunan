@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iqbalgozali.tokbangunan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="tokobangunan"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".contex"
+            android:label="@string/app_name" />
+        <activity android:name=".pilih_barang" />
+        <activity android:name=".list.semen" />
+        <activity android:name=".list.palaron" />
+        <activity android:name=".list.keramik" />
+        <activity android:name=".list.tools" />
+        <activity android:name=".list.cat" />
+        <activity android:name=".list.baja" />
+        <activity android:name=".Anggaran" />
+        <activity android:name=".AnggaranPekerja" />
+    </application>
+
+</manifest>

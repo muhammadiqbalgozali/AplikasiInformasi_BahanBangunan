@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kertas">
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Penggunaan Aplikasi
+        ada 5 fitur yang di sediakan pada aplikasi Infromasi bangunan
+
+ 1. Bahan material yaitu fitur tentang infromasi bahan - bahan material dan tips memilih bahan material yang baik
+
+ 2. Anggaran Bangunan yaitu fitur untuk menghitung Anggaran bangunan dengan menggunakan sistem m2
+
+ 3. Anggaran Pekerjaan yaitu fitur untuk mengetahui Anggaran Pekerjaan dalam setiap volume rumah
+
+ 4. About yaitu fitur untuk mengetahui pembuat dari aplikasi tersebut
+
+ 5. Help yaitu fitur untuk penjelasan dalam menggunakan pengaplikasian tersebut"
+
+        android:textSize="20dp"
+        android:textColor="#ff00"
+        android:id="@+id/textView"
+        android:layout_below="@+id/ib_close"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+    </ScrollView>
+</RelativeLayout>
